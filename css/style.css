@@ -82,7 +82,13 @@ nav > div {
 section {
   width: 960px;
   margin: auto;
-  padding-top: 100px; }
+  padding: 100px 0 50px 0; }
+
+#board {
+  width: 800px;
+  height: 800px;
+  background-color: #c9fbd6;
+  margin: auto; }
 
 body {
   background-image: url("../images/cityscape.jpg");

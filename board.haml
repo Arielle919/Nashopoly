@@ -1,0 +1,86 @@
+!!! 5
+%html{lang: 'en'}
+  %head
+    %link{rel:"stylesheet", href:"css/normalize.css"}
+    %link{rel:"stylesheet", href:"css/style.css"}
+    %meta{charset: 'utf-8'}
+    %title Nashopoly
+  %body
+    #overlay
+    %nav
+      %div
+        %a{href:"index.html"}
+          .money#one
+            %div
+              %span Home
+        %a{href:"board.html"}
+          .money#five
+            %div
+              %span Board
+        %a{href:"pieces.html"}
+          .money#ten
+            %div
+              %span Pieces
+        %a{href:"cards.html"}
+          .money#twenty
+            %div
+              %span Cards
+        %a{href:"faq.html"}
+          .money#fifty
+            %div
+              %span FAQ
+        %a{href:"contact.html"}
+          .money#hundred
+            %div
+              %span Contact Us
+    %section#main
+      #board
+        #board_left
+          .corner#top_left
+          .property
+          .property
+          .property.communitychest
+          .property
+          .property.railroad
+          .property
+          .property
+          .property.utility
+          .property
+          .corner#bottom_right
+        #board_middle
+          #board_top
+            .property
+            .property.chance
+            .property
+            .property
+            .property.railroad
+            .property
+            .property
+            .property.utility
+            .property
+          #board_center
+            .drawpile
+            .drawpile
+          #board_bottom
+            .property
+            .property
+            .property.chance
+            .property
+            .property.railroad
+            .property.incometax
+            .property
+            .property.communitychest
+            .property
+        #board_right
+          .corner#top_right
+          .property
+          .property
+          .property.communitychest
+          .property
+          .property.railroad
+          .property.chance
+          .property
+          .property.luxurytax
+          .property
+          .corner#bottom_right
+    %footer
