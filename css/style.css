@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
 nav > div {
   display: block;
   width: 978px;
@@ -82,12 +83,16 @@ nav > div {
 section {
   width: 960px;
   margin: 0 auto 0 auto;
-  padding: 100px 0 50px 0;
-  background-color: rgba(255, 255, 255, 0.9); }
+  padding: 100px 0 50px 0; }
 
 .clear {
   float: none;
   clear: both; }
+
+section #content {
+  width: 960px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-top: 0px; }
 
 #board {
   width: 800px;
@@ -165,12 +170,16 @@ section {
       border-bottom: 1px solid #111111;
       border-left: 0 solid #111111; }
 
+footer .footer_text {
+  padding: 20px; }
+
 body {
   background-image: url("../images/cityscape.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  font-family: "Montserrat Alternates", sans-serif; }
 
 a {
   text-decoration: none;

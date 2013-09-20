@@ -2,9 +2,15 @@ section {
   width: 960px;
   margin: 0 auto 0 auto;
   padding: 100px 0 50px 0;
-  background-color: rgba(255, 255, 255, .9)
 }
 .clear {
   float: none;
   clear: both;
 }
+section #content
+{
+  width: 960px;
+  background-color: rgba(255, 255, 255, .9);
+  padding-top:0px;
+}
+
