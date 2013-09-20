@@ -4,8 +4,15 @@
 @import "nav";
 @import "content";
 @import "board";
-
+body {
+  background-image: url('../images/cityscape.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+}
 a {
   text-decoration: none;
   color: $link_color;
 }
+
