@@ -9,55 +9,11 @@
   -moz-box-shadow: 4px 4px 6px #222;
   box-shadow: 4px 4px 6px #222;
   padding: 0;
+  td {
+    border: 2px solid black;
+  }
   .corner {
-    width: $board_size / $corner_divide;
-    height: $board_size / $corner_divide;
+    width: $corner_size;
+    height: $corner_size;
   }
-  #top_left {
-      @include border_all(0, 1px, 1px, 0);
-  }
-  #top_right {
-      @include border_all(0, 0, 1px, 1px);
-  }
-  #bottom_left {
-      @include border_all(1px, 1px, 0, 0);
-  }
-  #bottom_right {
-      @include border_all(1px, 0, 0, 1px);
-  }
-  #board_left {
-    float: left;
-    .property {
-      height: $property_width;
-      width: $board_size / $corner_divide;
-      @include border_all(1px, 0, 1px, 0);
-    }
-  }
-  #board_middle {
-    float: left;
-    #board_top .property {
-      @include border_all(0, 1px, 0, 1px);
-    }
-    #board_bottom .property {
-      @include border_all(0, 1px, 0, 1px);
-    }
-    .property {
-      float: left;
-      width: $property_width;
-      height: $board_size / $corner_divide;
-    }
-    #board_center {
-      width: $center_size;
-      height: $center_size;
-      @include border_all(2px, 2px, 2px, 2px);
-    }
-  }
-  #board_right {
-    float: left;
-    .property {
-      height: $property_width;
-      width: $board_size / $corner_divide;
-      @include border_all(1px, 0, 1px, 0);
-    }
-  }
-}
+ }
