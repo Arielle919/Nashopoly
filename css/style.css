@@ -82,8 +82,12 @@ nav > div {
 section {
   width: 960px;
   margin: auto;
-  padding: 100px 0 50px 0;
-  background-color: rgba(255, 255, 255, 0.9); }
+  padding: 100px 0 50px 0; }
+
+section #content {
+  width: 960px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-top: 0px; }
 
 #board {
   width: 800px;
