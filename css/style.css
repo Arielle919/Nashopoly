@@ -81,15 +81,89 @@ nav > div {
 
 section {
   width: 960px;
-  margin: auto;
+  margin: 0 auto 0 auto;
   padding: 100px 0 50px 0;
   background-color: rgba(255, 255, 255, 0.9); }
+
+.clear {
+  float: none;
+  clear: both; }
 
 #board {
   width: 800px;
   height: 800px;
   background-color: #c9fbd6;
-  margin: auto; }
+  margin: auto;
+  border: 10px solid #526aae;
+  border-radius: 3px;
+  -webkit-box-shadow: 4px 4px 6px #222;
+  -moz-box-shadow: 4px 4px 6px #222;
+  box-shadow: 4px 4px 6px #222;
+  padding: 0; }
+  #board .corner {
+    width: 100px;
+    height: 100px; }
+  #board #top_left {
+    border-top: 0 solid #111111;
+    border-right: 1px solid #111111;
+    border-bottom: 1px solid #111111;
+    border-left: 0 solid #111111; }
+  #board #top_right {
+    border-top: 0 solid #111111;
+    border-right: 0 solid #111111;
+    border-bottom: 1px solid #111111;
+    border-left: 1px solid #111111; }
+  #board #bottom_left {
+    border-top: 1px solid #111111;
+    border-right: 1px solid #111111;
+    border-bottom: 0 solid #111111;
+    border-left: 0 solid #111111; }
+  #board #bottom_right {
+    border-top: 1px solid #111111;
+    border-right: 0 solid #111111;
+    border-bottom: 0 solid #111111;
+    border-left: 1px solid #111111; }
+  #board #board_left {
+    float: left; }
+    #board #board_left .property {
+      height: 64.44444px;
+      width: 100px;
+      border-top: 1px solid #111111;
+      border-right: 0 solid #111111;
+      border-bottom: 1px solid #111111;
+      border-left: 0 solid #111111; }
+  #board #board_middle {
+    float: left; }
+    #board #board_middle #board_top .property {
+      border-top: 0 solid #111111;
+      border-right: 1px solid #111111;
+      border-bottom: 0 solid #111111;
+      border-left: 1px solid #111111; }
+    #board #board_middle #board_bottom .property {
+      border-top: 0 solid #111111;
+      border-right: 1px solid #111111;
+      border-bottom: 0 solid #111111;
+      border-left: 1px solid #111111; }
+    #board #board_middle .property {
+      float: left;
+      width: 64.44444px;
+      height: 100px; }
+    #board #board_middle #board_center {
+      width: 594px;
+      height: 594px;
+      border-top: 2px solid #111111;
+      border-right: 2px solid #111111;
+      border-bottom: 2px solid #111111;
+      border-left: 2px solid #111111; }
+  #board #board_right {
+    float: left; }
+    #board #board_right .property {
+      height: 64.44444px;
+      width: 100px;
+      border-top: 1px solid #111111;
+      border-right: 0 solid #111111;
+      border-bottom: 1px solid #111111;
+      border-left: 0 solid #111111; }
 
 body {
   background-image: url("../images/cityscape.jpg");

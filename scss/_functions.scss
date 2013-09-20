@@ -1,0 +1,10 @@
+@mixin border_all($top, $right, $bottom, $left, $color: #111) {
+  border-top: $top solid $color;
+  border-right: $right solid $color;
+  border-bottom: $bottom solid $color;
+  border-left: $left solid $color;
+}
+$board_size: 800px;
+$corner_divide: 8;
+$center_size: ($board_size - (($board_size / $corner_divide) * 2) - 6);
+$property_width: ($center_size - 14) / 9; //($board_size - (($board_size / $corner_divide) * 2) - 40) / 9;
