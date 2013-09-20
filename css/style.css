@@ -106,10 +106,47 @@ section #content {
   box-shadow: 4px 4px 6px #222;
   padding: 0; }
   #board td {
+    padding: 0;
     border: 2px solid black; }
+    #board td > div {
+      font-size: 12px;
+      vertical-align: top; }
   #board .corner {
     width: 100px;
     height: 100px; }
+  #board .color_bar {
+    width: 100%;
+    height: 25px;
+    background-color: red;
+    border: 1px dotted green; }
+  #board .top {
+    vertical-align: bottom; }
+    #board .top > div {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg); }
+  #board .right {
+    text-align: left; }
+    #board .right > div {
+      -webkit-transform: rotate(270deg);
+      -moz-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      transform: rotate(270deg);
+      width: 100%;
+      height: 100%; }
+  #board .left {
+    text-align: right; }
+    #board .left > div {
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg); }
+  #board .bottom {
+    vertical-align: top; }
 
 footer .footer_text {
   padding: 20px; }
@@ -125,6 +162,3 @@ body {
 a {
   text-decoration: none;
   color: #333333; }
-
-//* Conatc Page *//
-

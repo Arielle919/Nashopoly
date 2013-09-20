@@ -10,10 +10,44 @@
   box-shadow: 4px 4px 6px #222;
   padding: 0;
   td {
+    padding: 0;
     border: 2px solid black;
+    >div {
+      font-size: 12px;
+      vertical-align: top;
+    }
   }
   .corner {
     width: $corner_size;
     height: $corner_size;
+  }
+  .color_bar {
+    width: 100%;
+    height: 25px;
+    background-color: red;
+    border: 1px dotted green;
+  }
+  .top {
+    vertical-align: bottom;
+    >div {
+      @include rotate_fn(180deg);
+    }
+  }
+  .right {
+    text-align: left;
+    >div {
+      @include rotate_fn(270deg);
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .left {
+    text-align: right;
+    >div {
+      @include rotate_fn(90deg);
+    }
+  }
+  .bottom {
+    vertical-align: top;
   }
  }
