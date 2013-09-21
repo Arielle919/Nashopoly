@@ -1,114 +1,44 @@
-<!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <link href='css/normalize.css' rel='stylesheet'>
-    <link href='css/style.css' rel='stylesheet'>
-    <meta charset='utf-8'>
-    <title>Nashopoly</title>
-  </head>
-  <body>
-    <div id='overlay'></div>
-    <nav>
-      <div>
-        <a href='index.html'>
-          <div class='money' id='one'>
-            <div>
-              <span>Home</span>
-            </div>
-          </div>
-        </a>
-        <a href='board.html'>
-          <div class='money' id='five'>
-            <div>
-              <span>Board</span>
-            </div>
-          </div>
-        </a>
-        <a href='pieces.html'>
-          <div class='money' id='ten'>
-            <div>
-              <span>Pieces</span>
-            </div>
-          </div>
-        </a>
-        <a href='cards.html'>
-          <div class='money' id='twenty'>
-            <div>
-              <span>Cards</span>
-            </div>
-          </div>
-        </a>
-        <a href='faq.html'>
-          <div class='money' id='fifty'>
-            <div>
-              <span>FAQ</span>
-            </div>
-          </div>
-        </a>
-        <a href='contact.html'>
-          <div class='money' id='hundred'>
-            <div>
-              <span>Contact Us</span>
-            </div>
-          </div>
-        </a>
-      </div>
-    </nav>
-    <section id='main'>
-      <div id='board'>
-        <div id='board_left'>
-          <div class='corner' id='top_left'></div>
-          <div class='property'></div>
-          <div class='property'></div>
-          <div class='property communitychest'></div>
-          <div class='property'></div>
-          <div class='property railroad'></div>
-          <div class='property'></div>
-          <div class='property'></div>
-          <div class='property utility'></div>
-          <div class='property'></div>
-          <div class='corner' id='bottom_right'></div>
-        </div>
-        <div id='board_middle'>
-          <div id='board_top'>
-            <div class='property'></div>
-            <div class='property chance'></div>
-            <div class='property'></div>
-            <div class='property'></div>
-            <div class='property railroad'></div>
-            <div class='property'></div>
-            <div class='property'></div>
-            <div class='property utility'></div>
-            <div class='property'></div>
-          </div>
-          <div id='board_center'></div>
-          <div id='board_bottom'>
-            <div class='property'></div>
-            <div class='property'></div>
-            <div class='property chance'></div>
-            <div class='property'></div>
-            <div class='property railroad'></div>
-            <div class='property incometax'></div>
-            <div class='property'></div>
-            <div class='property communitychest'></div>
-            <div class='property'></div>
-          </div>
-        </div>
-        <div id='board_right'>
-          <div class='corner' id='top_right'></div>
-          <div class='property'></div>
-          <div class='property'></div>
-          <div class='property communitychest'></div>
-          <div class='property'></div>
-          <div class='property railroad'></div>
-          <div class='property chance'></div>
-          <div class='property'></div>
-          <div class='property luxurytax'></div>
-          <div class='property'></div>
-          <div class='corner' id='bottom_right'></div>
-        </div>
-      </div>
-    </section>
-    <footer></footer>
-  </body>
-</html>
+!!! 5
+%html{lang: 'en'}
+  %head
+    %link{rel:"stylesheet", href:"css/normalize.css"}
+    %link{rel:"stylesheet", href:"css/style.css"}
+    %meta{charset: 'utf-8'}
+    %title Nashopoly
+  %body#cards_bg
+    #overlay
+    %nav
+      %div
+        %a{href:"index.html"}
+          .money#one
+            %div
+              %span Home
+        %a{href:"board.html"}
+          .money#five
+            %div
+              %span Board
+        %a{href:"pieces.html"}
+          .money#ten
+            %div
+              %span Pieces
+        %a{href:"cards.html"}
+          .money#twenty
+            %div
+              %span Cards
+        %a{href:"faq.html"}
+          .money#fifty
+            %div
+              %span FAQ
+        %a{href:"contact.html"}
+          .money#hundred
+            %div
+              %span Contact Us
+    %section#main
+      %section#content
+        %div#logo
+        %div.content_body
+          %p
+            this is the body text
+        %footer
+          %p
+            (c)Nashopoly
