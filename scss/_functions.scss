@@ -1,0 +1,22 @@
+@mixin border_all($top, $right, $bottom, $left, $color: #111) {
+  border-top: $top solid $color;
+  border-right: $right solid $color;
+  border-bottom: $bottom solid $color;
+  border-left: $left solid $color;
+}
+@mixin rotate_fn($degrees) {
+  -webkit-transform: rotate($degrees);
+  -moz-transform: rotate($degrees);
+  -ms-transform: rotate($degrees);
+  -o-transform: rotate($degrees);
+  transform: rotate($degrees);
+}
+
+
+$board_size: 800px;
+$corner_divide: 8;
+$center_size: ($board_size - (($board_size / $corner_divide) * 2) - 6);
+$corner_size: $board_size / $corner_divide;
+$property_width: ($center_size - 14) / 9; //($board_size - (($board_size / $corner_divide) * 2) - 40) / 9;
+$property_height: ($board_size - $center_size) / 2;
+

@@ -1,165 +1,57 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat+Alternates);
-nav > div {
-  display: block;
-  width: 978px;
-  margin: auto;
-  position: relative;
-  left: 0; }
+/*
+Syntax error: Invalid CSS after "    }": expected "}", was ""
+        on line 28 of scss/_content.scss
+        from line 5 of scss/style.scss
 
-.money {
-  width: 143px;
-  height: 310px;
-  position: absolute;
-  top: -250px;
-  text-align: center;
-  -webkit-box-shadow: 0px 0px 9px #222;
-  -moz-box-shadow: 0px 0px 9px #222;
-  box-shadow: 0px 0px 9px #222;
-  -webkit-transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  -ms-transform: rotate(-10deg);
-  -o-transform: rotate(-10deg);
-  transform: rotate(-10deg);
-  -webkit-transition: all ease-in-out .4s;
-  -moz-transition: all ease-in-out .4s;
-  -ms-transition: all ease-in-out .4s;
-  -o-transition: all ease-in-out .4s;
-  transition: all ease-in-out .4s; }
-  .money:hover {
-    margin-left: 26px;
-    top: -100px; }
-  .money div {
-    width: 143px;
-    height: 30px;
-    position: absolute;
-    bottom: 0px; }
-  .money span {
-    width: 143px;
-    position: relative;
-    top: 7px; }
+23:     {
+24:       padding:20px;
+25:     }
 
-#one {
-  background-image: url("../images/1.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-color: #f7f6f1;
-  left: 0px; }
-
-#five {
-  background-image: url("../images/5.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-color: #ecbac5;
-  left: 163px; }
-
-#ten {
-  background-image: url("../images/10.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-color: #f1dc6f;
-  left: 326px; }
-
-#twenty {
-  background-image: url("../images/20.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-color: #abcdac;
-  left: 489px; }
-
-#fifty {
-  background-image: url("../images/50.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-color: #98c9ce;
-  left: 652px; }
-
-#hundred {
-  background-image: url("../images/100.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-color: #f5d187;
-  left: 815px; }
-
-#logo {
-  width: 350px;
-  height: 131px;
-  background-image: url("../images/nashopoly_logo.png");
-  position: relative;
-  margin: 0 305px 0 305px; }
-
-section {
-  width: 960px;
-  margin: auto;
-  padding: 100px 0 50px 0; }
-
-section #content {
-  width: 960px;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding-top: 0px; }
-
-.content_body {
-  width: 100%; }
-  .content_body p {
-    padding: 20px; }
-
-#board {
-  width: 800px;
-  height: 800px;
-  background-color: #c9fbd6;
-  margin: auto; }
-
-footer p {
-  padding: 20px;
-  text-align: center; }
-
-body#home_bg {
-  background-image: url("../images/cityscape_home.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
-  font-family: "Montserrat Alternates", sans-serif; }
-
-body#board_bg {
-  background-image: url("../images/cityscape_board.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
-  font-family: "Montserrat Alternates", sans-serif; }
-
-body#peices_bg {
-  background-image: url("../images/cityscape_peices.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
-  font-family: "Montserrat Alternates", sans-serif; }
-
-body#cards_bg {
-  background-image: url("../images/cityscape_cards.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
-  font-family: "Montserrat Alternates", sans-serif; }
-
-body#faq_bg {
-  background-image: url("../images/cityscape_faq.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
-  font-family: "Montserrat Alternates", sans-serif; }
-
-body#contact_bg {
-  background-image: url("../images/cityscape_contac.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
-  font-family: "Montserrat Alternates", sans-serif; }
-
-a {
-  text-decoration: none;
-  color: #333333; }
+Backtrace:
+scss/_content.scss:28
+scss/style.scss:5
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1145:in `expected'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1083:in `expected'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1078:in `tok!'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:535:in `block'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:528:in `ruleset'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:552:in `block_child'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:545:in `block_contents'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:82:in `stylesheet'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:27:in `parse'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:342:in `_to_tree'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:274:in `to_tree'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/root_node.rb:20:in `render'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:262:in `render'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `each'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `call'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/home/arielle/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/linux.rb:48:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"    }\": expected \"}\", was \"\"\A         on line 28 of scss/_content.scss\A         from line 5 of scss/style.scss\A \A 23:     {\A 24:       padding:20px;\A 25:     }"; }
