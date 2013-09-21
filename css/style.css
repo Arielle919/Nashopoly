@@ -4,7 +4,8 @@ nav > div {
   width: 978px;
   margin: auto;
   position: relative;
-  left: 0; }
+  left: 0;
+  z-index: 3; }
 
 .money {
   width: 143px;
@@ -104,12 +105,49 @@ section #content {
   -webkit-box-shadow: 4px 4px 6px #222;
   -moz-box-shadow: 4px 4px 6px #222;
   box-shadow: 4px 4px 6px #222;
-  padding: 0; }
+  padding: 0;
+  position: relative; }
+  #board table {
+    width: 100%;
+    position: absolute;
+    table-layout: fixed; }
+  #board #top_row {
+    top: 0;
+    left: 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg); }
+  #board #right_col {
+    position: relative;
+    top: 348px;
+    left: 348px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg); }
+  #board #bottom_row {
+    bottom: 0;
+    left: 0; }
+  #board #left_col {
+    position: relative;
+    top: 244px;
+    right: 348px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
   #board td {
     padding: 0;
-    border: 2px solid black; }
+    border: 2px solid black;
+    vertical-align: top; }
     #board td > div {
       font-size: 12px;
+      width: 100%;
+      height: 100%;
       vertical-align: top; }
   #board .corner {
     width: 100px;
@@ -117,36 +155,55 @@ section #content {
   #board .color_bar {
     width: 100%;
     height: 25px;
-    background-color: red;
-    border: 1px dotted green; }
-  #board .top {
-    vertical-align: bottom; }
-    #board .top > div {
-      -webkit-transform: rotate(180deg);
-      -moz-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-      -o-transform: rotate(180deg);
-      transform: rotate(180deg); }
-  #board .right {
-    text-align: left; }
-    #board .right > div {
-      -webkit-transform: rotate(270deg);
-      -moz-transform: rotate(270deg);
-      -ms-transform: rotate(270deg);
-      -o-transform: rotate(270deg);
-      transform: rotate(270deg);
-      width: 100%;
-      height: 100%; }
-  #board .left {
-    text-align: right; }
-    #board .left > div {
-      -webkit-transform: rotate(90deg);
-      -moz-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-      -o-transform: rotate(90deg);
-      transform: rotate(90deg); }
-  #board .bottom {
-    vertical-align: top; }
+    border-bottom: 2px solid black; }
+  #board .babyblue {
+    background-color: #c4c8e5; }
+  #board .blue {
+    background-color: #413382; }
+  #board .green {
+    background-color: #528b6a; }
+  #board .orange {
+    background-color: #f19749; }
+  #board .purple {
+    background-color: #44235a; }
+  #board .red {
+    background-color: #e22835; }
+  #board .violet {
+    background-color: #a72758; }
+  #board .yellow {
+    background-color: #f9f47c; }
+  #board #drawcommunitychest {
+    width: 150px;
+    height: 85px;
+    border: 2px dotted black;
+    text-align: center;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    position: absolute;
+    top: 200px;
+    left: 175px; }
+    #board #drawcommunitychest span {
+      position: relative;
+      top: 30px; }
+  #board #drawchance {
+    width: 150px;
+    height: 85px;
+    border: 2px dotted black;
+    text-align: center;
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+    transform: rotate(315deg);
+    position: absolute;
+    bottom: 200px;
+    right: 175px; }
+    #board #drawchance span {
+      position: relative;
+      top: 30px; }
 
 footer .footer_text {
   padding: 20px; }
