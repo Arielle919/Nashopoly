@@ -10,7 +10,9 @@ section {
 section #content
 {
   width: 960px;
-  background-color: rgba(255, 255, 255, .9);
+  moz-background-color: rgba(255, 255, 255, .50);
+  webkit-background-color: rgba(255, 255, 255, .50);
+  background-color: rgba(255, 255, 255, .50);
   padding-top:0px;
 }
 
