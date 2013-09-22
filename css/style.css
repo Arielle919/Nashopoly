@@ -108,19 +108,22 @@ section #content {
     text-align: center; }
 
 .content_body {
-  width: 100%; }
+  padding: 0 20px 0 20px; }
   .content_body p {
     padding: 20px; }
+  .content_body .peice_padding {
+    width: 940px;
+    float: left;
+    height: 370px; }
   .content_body .peice_box {
     width: 306px;
     height: 206px;
-    float: left;
-    margin: 0 0 0 20px; }
+    float: left; }
   .content_body .peice_text {
-    padding: 10px 0 10px 5px;
-    text-align: center;
-    background-color: blue;
-    margin: 0 0 0 10px; }
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    border-right: 2px solid rgba(245, 209, 135, 0.5);
+    border-left: 2px solid rgba(245, 209, 135, 0.5); }
 
 #board {
   width: 800px;
@@ -295,7 +298,7 @@ section #content {
             background-color: rgba(0, 0, 0, 0.1); }
 
 footer p {
-  padding: 20px;
+  padding: 80px 0 0 0;
   text-align: center; }
 
 body#home_bg {

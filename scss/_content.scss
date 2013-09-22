@@ -23,11 +23,19 @@ section #content
 
 .content_body
 {
-  width:100%;
+  padding:0 20px 0 20px;
 
     p
     {
       padding:20px;
+    }
+
+.peice_padding
+    {
+      width:940px;
+      float:left;
+      // background-color:#f00;
+      height:370px;
     }
 
     .peice_box
@@ -35,14 +43,22 @@ section #content
       width:306px;
       height:206px;
       float:left;
-      margin:0 0 0 20px;
+      // margin:40px 0 0 0;
+      // padding:50px 0 0 0;
     }
     .peice_text
     {
-      padding:10px 0 10px 5px;
-      text-align: center;
-      background-color: blue;
-      margin:0 0 0 10px;
+      padding:10px 10px 10px 10px;
+      text-align: justify;
+      // moz-background-color: rgba(245, 209, 135, .50);
+      // webkit-background-color: rgba(245, 209, 135, .50);
+      // background-color: rgba(245, 209, 135, .50);
+      // margin:0 0 0 10px;
+      border-right: 2px solid rgba(245, 209, 135, .50);
+      border-left: 2px solid rgba(245, 209, 135, .50);
     }
+
+
+
 
   }
