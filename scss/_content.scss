@@ -34,15 +34,15 @@ section #content
     {
       width:306px;
       height:206px;
-      position: absolute;
       float:left;
-      // background-color:#f00;
+      margin:0 0 0 20px;
     }
     .peice_text
     {
-      padding:10px 0 10px 0;
+      padding:10px 0 10px 5px;
       text-align: center;
       background-color: blue;
+      margin:0 0 0 10px;
     }
 
   }

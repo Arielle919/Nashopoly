@@ -114,12 +114,13 @@ section #content {
   .content_body .peice_box {
     width: 306px;
     height: 206px;
-    position: absolute;
-    float: left; }
+    float: left;
+    margin: 0 0 0 20px; }
   .content_body .peice_text {
-    padding: 10px 0 10px 0;
+    padding: 10px 0 10px 5px;
     text-align: center;
-    background-color: blue; }
+    background-color: blue;
+    margin: 0 0 0 10px; }
 
 #board {
   width: 800px;
