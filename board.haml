@@ -32,183 +32,231 @@
         %a{href:"contact.html"}
           .money#hundred
             %div
-              %span Contact Us!
+              %span Contact Us
     %section#main
-      %div#board
+      %section#content
+        %div#logo
+        %div#board
 
-        %div#drawcommunitychest.drawpile
-          %span Community Chest
-        %div#drawchance.drawpile
-          %span Chance
+          %div#drawcommunitychest.drawpile
+            %span Community Chest
+          %div#drawchance.drawpile
+            %span Chance
+          %div#boardlogo
+          %%div#crease
+            %div#centercrease
+            %div.tape
+            %div.tape
 
-
-        %table#top_row
-          /table for top row--------------------------------------------------
-          %tr
-            %td.corner
-              %div
-
-            %td.top
-              %div
-                %div.color_bar.yellow
-                Batman Building
-            %td.top
-              %div.utility
-                utility
-            %td.top
-              %div
-                %div.color_bar.yellow
-                Ryman Auditorium
-            %td.top
-              %div
-                %div.color_bar.yellow
-                State Capitol
-            %td.top
-              %div.railroad
-                railroad
-            %td.top
-              %div
-                %div.color_bar.red
-                LP Field
-            %td.top
-              %div
-                %div.color_bar.red
-                Bridgestone Arena
-            %td.top
-              %div.chance
-                chance
-            %td.top
-              %div
-                %div.color_bar.red
-                Convention Center
-            %td.corner
-              %div
-
-
-
-        %table#right_col
-          /table for right column---------------------------------------------
-          %tr
-            %td.corner
-              %div
-            %td.top
-              %div
-                %div.color_bar.blue
-                Belle Meade Plantation
-            %td.top
-              %div.luxurytax
-                Luxury tax
-            %td.top
-              %div
-                %div.color_bar.blue
-                Cheekwood
-            %td.top
-              %div.chance
-                Chance
-            %td.top
-              %div.railroad
-                Railroad
-            %td.top
-              %div
-                %div.color_bar.green
-                Broadway
-            %td.top
-              %div.communitychest
-                Community Chest
-            %td.top
-              %div
-                %div.color_bar.green
-                Ghost Ballet
-            %td.top
-              %div
-                %div.color_bar.green
-                Riverfront
-            %td.corner
-              %div
+          %table#top_row
+            /table for top row--------------------------------------------------
+            %tr
+              %td.corner
+                %div
+                  %img{src:""}
+                  %div.price
+              %td.top
+                %div
+                  %div.color_bar.yellow
+                  Batman Building
+                  %div.price $280
+              %td.top
+                %div.utility
+                  %img{src:""}
+                  %div.price $150
+              %td.top
+                %div
+                  %div.color_bar.yellow
+                  Ryman Auditorium
+                  %div.price $260
+              %td.top
+                %div
+                  %div.color_bar.yellow
+                  Schermerhorn
+                  %div.price $260
+              %td.top
+                %div.railroad
+                  %img{src:""}
+                  %div.price $200
+              %td.top
+                %div
+                  %div.color_bar.red
+                  LP Field
+                  %div.price $240
+              %td.top
+                %div
+                  %div.color_bar.red
+                  Bridgestone Arena
+                  %div.price $220
+              %td.top
+                %div.chance
+                  %img{src:""}
+                  %div.price
+              %td.top
+                %div
+                  %div.color_bar.red
+                  Convention Center
+                  %div.price $220
+              %td.corner
+                %div
+                  %img{src:""}
+                  %div.price
 
 
-        %table#bottom_row
-          /table for bottom row--------------------------------------------------
-          %tr
-            %td.corner
-              %div
-            %td.top
-              %div
-                %div.color_bar.babyblue
-                Music Row
-            %td.top
-              %div
-                %div.color_bar.babyblue
-                Shelby Park
-            %td.top
-              %div.chance
-                Chance
-            %td.top
-              %div
-                %div.color_bar.babyblue
-                Loveless Cafe
-            %td.top
-              %div.railroad
-                Railroad
-            %td.top
-              %div.incometax
-                Income Tax
-            %td.top
-              %div
-                %div.color_bar.purple
-                Grand Ole Opry
-            %td.top
-              %div.communitychest
-                Community Chest
-            %td.top
-              %div
-                %div.color_bar.purple
-                Opry Mills
-            %td.corner
-              %div
+          %table#right_col
+            /table for right column---------------------------------------------
+            %tr
+              %td.corner
+                %div
+              %td.top
+                %div
+                  %div.color_bar.blue
+                  Belle Meade Plantation
+                  %div.price $400
+              %td.top
+                %div.luxurytax
+                  %img{src:""}
+                  %div.price
+              %td.top
+                %div
+                  %div.color_bar.blue
+                  Cheekwood
+                  %div.price $350
+              %td.top
+                %div.chance
+                  %img{src:""}
+                  %div.price
+              %td.top
+                %div.railroad
+                  %img{src:""}
+                  %div.price $200
+              %td.top
+                %div
+                  %div.color_bar.green
+                  Broadway
+                  %div.price $320
+              %td.top
+                %div.communitychest
+                  %img{src:""}
+                  %div.price
+              %td.top
+                %div
+                  %div.color_bar.green
+                  Ghost Ballet
+                  %div.price $300
+              %td.top
+                %div
+                  %div.color_bar.green
+                  Riverfront
+                  %div.price $300
+              %td.corner
+                %div
 
 
-        %table#left_col
-          /table for left column-----------------------------------------
-          %tr
-            %td.corner
-              %div
+          %table#bottom_row
+            /table for bottom row--------------------------------------------------
+            %tr
+              %td.corner
+                %div
+                  %img{src:""}
+                  %div.price
+              %td.top
+                %div
+                  %div.color_bar.babyblue
+                  Music Row
+                  %div.price $120
+              %td.top
+                %div
+                  %div.color_bar.babyblue
+                  Shelby Park
+                  %div.price $100
+              %td.top
+                %div.chance
+                  %img{src:""}
+                  %div.price
+              %td.top
+                %div
+                  %div.color_bar.babyblue
+                  Loveless Cafe
+                  %div.price $100
+              %td.top
+                %div.railroad
+                  %img{src:""}
+                  %div.price $200
+              %td.top
+                %div.incometax
+                  %img{src:""}
+                  %div.price
+              %td.top
+                %div
+                  %div.color_bar.purple
+                  Grand Ole Opry
+                  %div.price $80
+              %td.top
+                %div.communitychest
+                  %img{src:""}
+                  %div.price
+              %td.top
+                %div
+                  %div.color_bar.purple
+                  Opry Mills
+                  %div.price $60
+              %td.corner
+                %div
+                  %img{src:""}
+                  %div.price
 
-            %td.top
-              %div
-                %div.color_bar.orange
-                The Parthenon
-            %td.top2
-              %div
-                %div.color_bar.orange
-                The Hermitage
-            %td.top
-              %div.communitychest
-                Community Chest
-            %td.top
-              %div
-                %div.color_bar.orange
-                Fort Negley
-            %td.top
-              %div.railroad
-                Railroad
-            %td.top
-              %div
-                %div.color_bar.violet
-                Country Music Hall Of Fame
-            %td.top
-              %div
-                %div.color_bar.violet
-                Frist Center
-            %td.top
-              %div.utility
-                Utility
-            %td.top
-              %div
-                %div.color_bar.violet
-                Nashville Zoo
-            %td.corner
-              %div
 
+          %table#left_col
+            /table for left column-----------------------------------------
+            %tr
+              %td.corner
+                %div
 
-    %footer
+              %td.top
+                %div
+                  %div.color_bar.orange
+                  The Parthenon
+                  %div.price $200
+              %td.top2
+                %div
+                  %div.color_bar.orange
+                  The Hermitage
+                  %div.price $180
+              %td.top
+                %div.communitychest
+                  %img{src:""}
+                  %div.price
+              %td.top
+                %div
+                  %div.color_bar.orange
+                  Fort Negley
+                  %div.price $180
+              %td.top
+                %div.railroad
+                  %img{src:""}
+                  %div.price $200
+              %td.top
+                %div
+                  %div.color_bar.violet
+                  Country Music Hall Of Fame
+                  %div.price $160
+              %td.top
+                %div
+                  %div.color_bar.violet
+                  Frist Center
+                  %div.price $140
+              %td.top
+                %div.utility
+                  %img{src:""}
+                  %div.price $150
+              %td.top
+                %div
+                  %div.color_bar.violet
+                  Nashville Zoo
+                  %div.price $140
+              %td.corner
+                %div
+
+        %footer
+          &copy; 2013 Nashopoly

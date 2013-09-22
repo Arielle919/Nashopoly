@@ -166,12 +166,18 @@ section #content {
   #board td {
     padding: 0;
     border: 2px solid black;
-    vertical-align: top; }
+    vertical-align: top;
+    position: relative; }
     #board td > div {
       font-size: 9px;
       width: 100%;
       height: 100%;
       vertical-align: top;
+      text-align: center; }
+    #board td .price {
+      width: 100%;
+      position: absolute;
+      bottom: 0px;
       text-align: center; }
   #board .corner {
     width: 100px;
@@ -227,6 +233,42 @@ section #content {
     font-size: 12px;
     font-weight: bold;
     top: 50px; }
+  #board #boardlogo {
+    background-image: url("../images/nashopoly_logo.png");
+    width: 350px;
+    height: 131px;
+    position: absolute;
+    left: 215px;
+    top: 330px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  #board #crease {
+    position: absolute;
+    left: 395px;
+    bottom: -10px;
+    width: 10px;
+    height: 820px;
+    background-color: rgba(40, 40, 40, 0.1); }
+    #board #crease #centercrease {
+      width: 2px;
+      height: 100%;
+      margin: auto;
+      background-color: rgba(40, 40, 40, 0.2); }
+    #board #crease .tape {
+      width: 40px;
+      height: 10px;
+      background-color: #222;
+      position: absolute;
+      right: -16px;
+      border-left: 1px solid #666;
+      border-right: 1px solid #666; }
+      #board #crease .tape:nth-of-type(2) {
+        top: 0px; }
+      #board #crease .tape:nth-of-type(3) {
+        bottom: 0px; }
 
 footer p {
   padding: 20px;
