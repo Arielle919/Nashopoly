@@ -127,10 +127,16 @@
     height: 820px;
     background-color: rgba(40, 40, 40, .1);
     #centercrease {
-      width: 2px;
+      width: 6px;
       height: 100%;
       margin: auto;
-      background-color: rgba(40, 40, 40, .2);
+      background-color: rgba(40, 40, 40, .07);
+      div {
+        width: 2px;
+        height: 100%;
+        margin: auto;
+        background-color: rgba(40, 40, 40, .05);
+      }
     }
     .tape {
       width: 40px;
@@ -145,6 +151,24 @@
       }
       &:nth-of-type(3) {
         bottom: 0px;
+      }
+      .tapecrease {
+        width: 10px;
+        height: 100%;
+        margin: auto;
+        background-color: rgba(150, 150, 150, .14);
+        >div {
+          width: 6px;
+          height: 100%;
+          margin: auto;
+          background-color: rgba(40, 40 ,40, .1);
+          >div {
+            width: 2px;
+            height: 100%;
+            margin: auto;
+            background-color: rgba(0, 0 ,0, .1);
+        }
+      }
       }
     }
   }

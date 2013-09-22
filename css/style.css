@@ -103,6 +103,9 @@ section #content {
   webkit-background-color: rgba(255, 255, 255, 0.5);
   background-color: rgba(255, 255, 255, 0.5);
   padding-top: 0px; }
+  section #content #video {
+    width: 100%;
+    text-align: center; }
 
 .content_body {
   width: 100%; }
@@ -253,10 +256,15 @@ section #content {
     height: 820px;
     background-color: rgba(40, 40, 40, 0.1); }
     #board #crease #centercrease {
-      width: 2px;
+      width: 6px;
       height: 100%;
       margin: auto;
-      background-color: rgba(40, 40, 40, 0.2); }
+      background-color: rgba(40, 40, 40, 0.07); }
+      #board #crease #centercrease div {
+        width: 2px;
+        height: 100%;
+        margin: auto;
+        background-color: rgba(40, 40, 40, 0.05); }
     #board #crease .tape {
       width: 40px;
       height: 10px;
@@ -269,6 +277,21 @@ section #content {
         top: 0px; }
       #board #crease .tape:nth-of-type(3) {
         bottom: 0px; }
+      #board #crease .tape .tapecrease {
+        width: 10px;
+        height: 100%;
+        margin: auto;
+        background-color: rgba(150, 150, 150, 0.14); }
+        #board #crease .tape .tapecrease > div {
+          width: 6px;
+          height: 100%;
+          margin: auto;
+          background-color: rgba(40, 40, 40, 0.1); }
+          #board #crease .tape .tapecrease > div > div {
+            width: 2px;
+            height: 100%;
+            margin: auto;
+            background-color: rgba(0, 0, 0, 0.1); }
 
 footer p {
   padding: 20px;
