@@ -26,4 +26,19 @@ section #content
       padding:20px;
     }
 
+    .peice_box
+    {
+      width:306px;
+      height:206px;
+      position: absolute;
+      float:left;
+      // background-color:#f00;
+    }
+    .peice_text
+    {
+      padding:10px 0 10px 0;
+      text-align: center;
+      background-color: blue;
+    }
+
   }

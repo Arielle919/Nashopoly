@@ -108,6 +108,15 @@ section #content {
   width: 100%; }
   .content_body p {
     padding: 20px; }
+  .content_body .peice_box {
+    width: 306px;
+    height: 206px;
+    position: absolute;
+    float: left; }
+  .content_body .peice_text {
+    padding: 10px 0 10px 0;
+    text-align: center;
+    background-color: blue; }
 
 #board {
   width: 800px;
