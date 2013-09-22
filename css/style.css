@@ -168,10 +168,11 @@ section #content {
     border: 2px solid black;
     vertical-align: top; }
     #board td > div {
-      font-size: 12px;
+      font-size: 9px;
       width: 100%;
       height: 100%;
-      vertical-align: top; }
+      vertical-align: top;
+      text-align: center; }
   #board .corner {
     width: 100px;
     height: 100px; }
@@ -196,8 +197,8 @@ section #content {
   #board .yellow {
     background-color: #f9f47c; }
   #board #drawcommunitychest {
-    width: 150px;
-    height: 85px;
+    width: 110px;
+    height: 125px;
     border: 2px dotted black;
     text-align: center;
     -webkit-transform: rotate(135deg);
@@ -206,14 +207,11 @@ section #content {
     -o-transform: rotate(135deg);
     transform: rotate(135deg);
     position: absolute;
-    top: 200px;
-    left: 175px; }
-    #board #drawcommunitychest span {
-      position: relative;
-      top: 30px; }
+    top: 190px;
+    left: 200px; }
   #board #drawchance {
-    width: 150px;
-    height: 85px;
+    width: 110px;
+    height: 125px;
     border: 2px dotted black;
     text-align: center;
     -webkit-transform: rotate(315deg);
@@ -222,11 +220,13 @@ section #content {
     -o-transform: rotate(315deg);
     transform: rotate(315deg);
     position: absolute;
-    bottom: 200px;
-    right: 175px; }
-    #board #drawchance span {
-      position: relative;
-      top: 30px; }
+    bottom: 190px;
+    right: 200px; }
+  #board .drawpile span {
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    top: 50px; }
 
 footer p {
   padding: 20px;
