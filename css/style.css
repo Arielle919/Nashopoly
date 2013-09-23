@@ -186,7 +186,8 @@ section #content {
     padding: 0;
     border: 2px solid black;
     vertical-align: top;
-    position: relative; }
+    position: relative;
+    left: 0; }
     #board td > div {
       font-size: 9px;
       width: 100%;
@@ -203,7 +204,8 @@ section #content {
     padding: 0;
     width: 100px;
     height: 100px;
-    background-size: 100%; }
+    background-size: 100%;
+    background-repeat: no-repeat; }
   #board #go {
     background-image: url("../images/board_images/go.png"); }
   #board #justvisiting {

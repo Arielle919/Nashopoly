@@ -47,6 +47,7 @@
     border: 2px solid black;
     vertical-align: top;
     position: relative;
+    left: 0;
     >div {
       font-size: 9px;
       width: 100%;
@@ -67,6 +68,7 @@
     width: $corner_size;
     height: $corner_size;
     background-size: 100%;
+    background-repeat: no-repeat;
   }
   #go {
       background-image: url('../images/board_images/go.png');
