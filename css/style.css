@@ -142,6 +142,7 @@ section #content {
   height: 800px;
   background-color: #c9fbd6;
   margin: auto;
+  margin-bottom: 40px;
   border: 10px solid #526aae;
   border-radius: 3px;
   -webkit-box-shadow: 4px 4px 6px #222;
@@ -186,25 +187,99 @@ section #content {
     padding: 0;
     border: 2px solid black;
     vertical-align: top;
-    position: relative; }
+    position: relative;
+    left: 0; }
     #board td > div {
       font-size: 9px;
-      width: 100%;
+      width: inherit;
       height: 100%;
       vertical-align: top;
       text-align: center; }
     #board td .price {
-      width: 100%;
+      width: 65px;
       position: absolute;
-      bottom: 0px;
-      text-align: center; }
+      bottom: 4px;
+      text-align: center;
+      line-height: 9px; }
   #board .corner {
+    padding: 0;
     width: 100px;
-    height: 100px; }
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat; }
+  #board #go {
+    background-image: url("../images/board_images/go.png"); }
+  #board #justvisiting {
+    background-image: url("../images/board_images/just_visiting_jail.png"); }
+  #board #freeparking {
+    background-image: url("../images/board_images/free_park.png"); }
+  #board #gotojail {
+    background-image: url("../images/board_images/goto_jail.png"); }
+  #board .chance {
+    background-image: url("../images/board_images/orange_chance.png");
+    background-size: 75px 75px;
+    background-position: -5px 20px;
+    background-repeat: no-repeat; }
+    #board .chance div {
+      margin-top: 3px;
+      font-size: 14px;
+      font-weight: bold; }
+  #board .communitychest {
+    background-image: url("../images/board_images/community_chest.png");
+    background-size: 60px 60px;
+    background-position: 3px 35px;
+    background-repeat: no-repeat; }
+    #board .communitychest div {
+      margin-top: 3px;
+      font-size: 11px;
+      font-weight: bold; }
+  #board .railroad {
+    background-size: 55px 55px;
+    background-position: 5px 20px;
+    background-repeat: no-repeat; }
+  #board #twofour {
+    background-image: url("../images/board_images/board_i-24.png"); }
+  #board #fourzero {
+    background-image: url("../images/board_images/I-40_sign.png"); }
+  #board #fourfourzero {
+    background-image: url("../images/board_images/I-440_sign.png"); }
+  #board #sixfive {
+    background-image: url("../images/board_images/I-65_sign.png"); }
+  #board #electric {
+    background-size: 60px 35px;
+    background-image: url("../images/board_images/utility_nes.png");
+    background-position: 2px 20px;
+    background-repeat: no-repeat; }
+  #board #water {
+    background-size: 60px 20px;
+    background-image: url("../images/board_images/utility_water.png");
+    background-position: 2px 25px;
+    background-repeat: no-repeat; }
   #board .color_bar {
     width: 100%;
     height: 25px;
     border-bottom: 2px solid black; }
+  #board #luxurytax {
+    background-size: 65px 65px;
+    background-image: url("../images/board_images/barrel.png");
+    background-position: 0px 13px;
+    background-repeat: no-repeat;
+    font-weight: bold; }
+  #board #incometax div {
+    position: relative;
+    left: 0; }
+    #board #incometax div p:first-child {
+      position: absolute;
+      width: 65px;
+      top: -5px;
+      font-size: 14px; }
+    #board #incometax div p:nth-child(2) {
+      position: absolute;
+      top: 27px;
+      left: 26px;
+      font-size: 20px; }
+    #board #incometax div .price {
+      top: 80px; }
   #board .babyblue {
     background-color: #c4c8e5; }
   #board .blue {
@@ -309,9 +384,11 @@ section #content {
             margin: auto;
             background-color: rgba(0, 0, 0, 0.1); }
 
-footer p {
-  padding: 80px 0 0 0;
+footer {
   text-align: center; }
+  footer p {
+    padding: 80px 0 0 0;
+    text-align: center; }
 
 body#home_bg {
   background-image: url("../images/cityscape_home.png");

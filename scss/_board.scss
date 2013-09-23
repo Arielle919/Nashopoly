@@ -3,6 +3,7 @@
   height: $board_size;
   background-color: $board_color;
   margin: auto;
+  margin-bottom: 40px;
   border: 10px solid $board_border;
   border-radius: 3px;
   -webkit-box-shadow: 4px 4px 6px #222;
@@ -46,30 +47,128 @@
     border: 2px solid black;
     vertical-align: top;
     position: relative;
+    left: 0;
     >div {
       font-size: 9px;
-      width: 100%;
+      width: inherit;
       height: 100%;
       vertical-align: top;
       text-align: center;
     }
     .price {
-      width: 100%;
-        position: absolute;
-      bottom: 0px;
+      width: 65px;
+      position: absolute;
+      bottom: 4px;
+
       text-align: center;
+      line-height: 9px;
     }
   }
   .corner {
+    padding: 0;
     width: $corner_size;
     height: $corner_size;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  #go {
+      background-image: url('../images/board_images/go.png');
+    }
+  #justvisiting {
+      background-image: url('../images/board_images/just_visiting_jail.png');
+    }
+  #freeparking {
+    background-image: url('../images/board_images/free_park.png');
+  }
+  #gotojail {
+      background-image: url('../images/board_images/goto_jail.png');
+  }
+  .chance {
+    background-image: url('../images/board_images/orange_chance.png');
+    background-size: 75px 75px;
+    background-position: -5px 20px;
+    background-repeat: no-repeat;
+    div {
+      margin-top: 3px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+  .communitychest {
+    background-image: url('../images/board_images/community_chest.png');
+    background-size: 60px 60px;
+    background-position: 3px 35px;
+    background-repeat: no-repeat;
+    div {
+      margin-top: 3px;
+      font-size: 11px;
+      font-weight: bold;
+    }
+  }
+  .railroad {
+    background-size: 55px 55px;
+    background-position: 5px 20px;
+    background-repeat: no-repeat;
+
+  }
+  #twofour {
+    background-image: url('../images/board_images/board_i-24.png');
+  }
+  #fourzero {
+    background-image: url('../images/board_images/I-40_sign.png');
+  }
+  #fourfourzero {
+    background-image: url('../images/board_images/I-440_sign.png');
+  }
+  #sixfive {
+    background-image: url('../images/board_images/I-65_sign.png');
+  }
+  #electric {
+    background-size: 60px 35px;
+    background-image: url('../images/board_images/utility_nes.png');
+    background-position: 2px 20px;
+    background-repeat: no-repeat;
+  }
+  #water {
+    background-size: 60px 20px;
+    background-image: url('../images/board_images/utility_water.png');
+    background-position: 2px 25px;
+    background-repeat: no-repeat;
   }
   .color_bar {
     width: 100%;
     height: 25px;
     border-bottom: 2px solid black;
   }
+  #luxurytax {
+    background-size: 65px 65px;
+    background-image: url('../images/board_images/barrel.png');
+    background-position: 0px 13px;
+    background-repeat: no-repeat;
+    font-weight: bold;
+  }
+  #incometax {
+    div {
+      position: relative;
+      left: 0;
+      p:first-child {
+        position: absolute;
+        width: 65px;;
+        top: -5px;
+        font-size: 14px;
+      }
 
+      p:nth-child(2) {
+        position: absolute;
+        top: 27px;
+        left: 26px;
+        font-size: 20px;
+      }
+      .price {
+        top: 80px;
+      }
+    }
+  }
   @for $i from 1 through 8 {
     $name: nth($color_bars, $i);
     $color: nth($color_bar_colors, $i);
