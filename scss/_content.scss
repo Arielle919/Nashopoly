@@ -26,17 +26,16 @@ section #content
   width:960px;
   padding:0 20px 0 20px;
 
+   p#home_text
+    {
+      padding:20px 0px 0 40px;
+      margin-right:80px;
+      text-align: justify;
+    }
+
     p
     {
-      padding:20px 40px 0 0;
-      text-align: justify;
-      #home_text
-    {
-
-      // width:850px;
-      // height:500px;
-      // background-color: red;
-
+      padding:20px;
     }
 
 
@@ -79,7 +78,4 @@ section #content
       ul{display:inline; padding-left:0px;}
       li{display:inline;}
   }
-
-
-    }
 }
