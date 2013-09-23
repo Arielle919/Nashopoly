@@ -32,183 +32,235 @@
         %a{href:"contact.html"}
           .money#hundred
             %div
-              %span Contact Us!
+              %span Contact Us
     %section#main
-      %div#board
+      %section#content
+        %div#logo
+        %div#board
 
-        %div#drawcommunitychest
-          %span Community Chest
-        %div#drawchance
-          %span Chance
+          %div#drawcommunitychest.drawpile
+            %span Community Chest
+          %div#drawchance.drawpile
+            %span Chance
+          %div#boardlogo
+          %%div#crease
+            %div#centercrease
+              %div
+            %div.tape
+              %div.tapecrease
+                %div
+                  %div
+            %div.tape
+              %div.tapecrease
+                %div
+                  %div
+          %table#top_row
+            /table for top row--------------------------------------------------
+            %tr
+              %td.corner#gotojail
+                %div
 
+                  %div.price
+              %td.top
+                %div
+                  %div.color_bar.yellow
+                  Batman Building
+                  %div.price $280
+              %td.top.utility#water
+                %div
 
-        %table#top_row
-          /table for top row--------------------------------------------------
-          %tr
-            %td.corner
-              %div
+                  %div.price $150
+              %td.top
+                %div
+                  %div.color_bar.yellow
+                  Ryman Auditorium
+                  %div.price $260
+              %td.top
+                %div
+                  %div.color_bar.yellow
+                  Schermerhorn
+                  %div.price $260
+              %td.top.railroad#fourzero
+                %div
 
-            %td.top
-              %div
-                %div.color_bar.yellow
-                sample text
-            %td.top
-              %div.utility
-                utility
-            %td.top
-              %div
-                %div.color_bar.yellow
-                sample text
-            %td.top
-              %div
-                %div.color_bar.yellow
-                sample text
-            %td.top
-              %div.railroad
-                railroad
-            %td.top
-              %div
-                %div.color_bar.red
-                sample text
-            %td.top
-              %div
-                %div.color_bar.red
-                sample text
-            %td.top
-              %div.chance
-                chance
-            %td.top
-              %div
-                %div.color_bar.red
-                sample text
-            %td.corner
-              %div
+                  %div.price $200
+              %td.top
+                %div
+                  %div.color_bar.red
+                  LP Field
+                  %div.price $240
+              %td.top
+                %div
+                  %div.color_bar.red
+                  Bridgestone Arena
+                  %div.price $220
+              %td.top.chance
+                %div
+                  Chance
+              %td.top
+                %div
+                  %div.color_bar.red
+                  Convention Center
+                  %div.price $220
+              %td.corner#freeparking
+                %div
 
-
-
-        %table#right_col
-          /table for right column---------------------------------------------
-          %tr
-            %td.corner
-              %div
-            %td.top
-              %div
-                %div.color_bar.blue
-                sample text
-            %td.top
-              %div.luxurytax
-                Luxury tax
-            %td.top
-              %div
-                %div.color_bar.blue
-                sample text
-            %td.top
-              %div.chance
-                Chance
-            %td.top
-              %div.railroad
-                Railroad
-            %td.top
-              %div
-                %div.color_bar.green
-                sample text
-            %td.top
-              %div.communitychest
-                Community Chest
-            %td.top
-              %div
-                %div.color_bar.green
-                sample text
-            %td.top
-              %div
-                %div.color_bar.green
-                sample text
-            %td.corner
-              %div
+                  %div.price
 
 
-        %table#bottom_row
-          /table for bottom row--------------------------------------------------
-          %tr
-            %td.corner
-              %div
-            %td.top
-              %div
-                %div.color_bar.babyblue
-                sample text
-            %td.top
-              %div
-                %div.color_bar.babyblue
-                sample text
-            %td.top
-              %div.chance
-                Chance
-            %td.top
-              %div
-                %div.color_bar.babyblue
-                sample text
-            %td.top
-              %div.railroad
-                Railroad
-            %td.top
-              %div.incometax
-                Income Tax
-            %td.top
-              %div
-                %div.color_bar.purple
-                sample text
-            %td.top
-              %div.communitychest
-                Community Chest
-            %td.top
-              %div
-                %div.color_bar.purple
-                sample text
-            %td.corner
-              %div
+          %table#right_col
+            /table for right column---------------------------------------------
+            %tr
+              %td.corner
+                %div
+              %td.top
+                %div
+                  %div.color_bar.blue
+                  Belle Meade Plantation
+                  %div.price $400
+              %td.top#luxurytax
+                %div
+                  Construction
+                  %div.price
+                    Go back 6 spaces
+              %td.top
+                %div
+                  %div.color_bar.blue
+                  Cheekwood
+                  %div.price $350
+              %td.top.chance
+                %div
+                  Chance
+
+              %td.top.railroad#sixfive
+                %div
+
+                  %div.price $200
+              %td.top
+                %div
+                  %div.color_bar.green
+                  Broadway
+                  %div.price $320
+              %td.top.communitychest
+                %div
+                  Community Chest
+              %td.top
+                %div
+                  %div.color_bar.green
+                  Ghost Ballet
+                  %div.price $300
+              %td.top
+                %div
+                  %div.color_bar.green
+                  Riverfront
+                  %div.price $300
+              %td.corner
+                %div
 
 
-        %table#left_col
-          /table for left column-----------------------------------------
-          %tr
-            %td.corner
-              %div
+          %table#bottom_row
+            /table for bottom row--------------------------------------------------
+            %tr
+              %td.corner#justvisiting
+                %div
 
-            %td.top
-              %div
-                %div.color_bar.orange
-                sample text
-            %td.top2
-              %div
-                %div.color_bar.orange
-                sample text
-            %td.top
-              %div.communitychest
-                Community Chest
-            %td.top
-              %div
-                %div.color_bar.orange
-                sample text
-            %td.top
-              %div.railroad
-                Railroad
-            %td.top
-              %div
-                %div.color_bar.violet
-                sample text
-            %td.top
-              %div
-                %div.color_bar.violet
-                sample text
-            %td.top
-              %div.utility
-                Utility
-            %td.top
-              %div
-                %div.color_bar.violet
-                sample text
-            %td.corner
-              %div
+                  %div.price
+              %td.top
+                %div
+                  %div.color_bar.babyblue
+                  Music Row
+                  %div.price $120
+              %td.top
+                %div
+                  %div.color_bar.babyblue
+                  Shelby Park
+                  %div.price $100
+              %td.top.chance
+                %div
+                  Chance
+
+              %td.top
+                %div
+                  %div.color_bar.babyblue
+                  Loveless Cafe
+                  %div.price $100
+              %td.top.railroad#fourfourzero
+                %div
+
+                  %div.price $200
+              %td.top#incometax
+                %div
+                  %p Tourist Trap
+                  %p &diams;
+                  %div.price
+                    Pay $200
+              %td.top
+                %div
+                  %div.color_bar.purple
+                  Grand Ole Opry
+                  %div.price $80
+              %td.top.communitychest
+                %div
+                  Community Chest
+              %td.top
+                %div
+                  %div.color_bar.purple
+                  Opry Mills
+                  %div.price $60
+              %td.corner#go
+                %div
+
+                  %div.price
 
 
-    %footer
+          %table#left_col
+            /table for left column-----------------------------------------
+            %tr
+              %td.corner
+                %div
+
+              %td.top
+                %div
+                  %div.color_bar.orange
+                  The Parthenon
+                  %div.price $200
+              %td.top2
+                %div
+                  %div.color_bar.orange
+                  The Hermitage
+                  %div.price $180
+              %td.top.communitychest
+                %div
+                  Community Chest
+              %td.top
+                %div
+                  %div.color_bar.orange
+                  Fort Negley
+                  %div.price $180
+              %td.top.railroad#twofour
+                %div
+
+                  %div.price $200
+              %td.top
+                %div
+                  %div.color_bar.violet
+                  Country Music Hall Of Fame
+                  %div.price $160
+              %td.top
+                %div
+                  %div.color_bar.violet
+                  Frist Center
+                  %div.price $140
+              %td.top.utility#electric
+                %div
+                  %div.price $150
+              %td.top
+                %div
+                  %div.color_bar.violet
+                  Nashville Zoo
+                  %div.price $140
+              %td.corner
+                %div
+
+        %footer
+          &copy; 2013 Nashopoly

@@ -1,3 +1,14 @@
+article.faq {
+  line-height: 30px;
+  p {
+        width: 65%;
+        margin: auto;
+        margin-top: 40px;
+      }
+      .title {
+        margin-top: 30px;
+      }
+}
 #left_article_faq
     {
       width: 450px;
@@ -6,8 +17,13 @@
       margin: 20px 0 20px 20px;
       background-image: url("../images/blue_long_card.jpg");
       background-size: 100% 100%;
-      line-height: 30px;
-
+      p
+      {
+        margin-top: 10px;
+      }
+      .title {
+        margin-top: 30px;
+      }
     }
 
 #right_article_faq
@@ -18,7 +34,7 @@
       margin: 20px 0 20px 20px;
       background-image: url("../images/red_long_card.jpg");
       background-size: 100% 100%;
-      line-height: 30px;
+
     }
 
 #bottom_left_article_faq
@@ -29,7 +45,7 @@
       margin: 20px 0 20px 20px;
       background-image: url("../images/yellow_long_card.jpg");
       background-size: 100% 100%;
-      line-height: 30px;
+
     }
 
 #bottom_right_article_faq
@@ -40,5 +56,5 @@
       margin: 20px 0 20px 20px;
       background-image: url("../images/green_long_card.jpg");
       background-size: 100% 100%;
-      line-height: 30px;
+
     }

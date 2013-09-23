@@ -3,6 +3,7 @@
   height: $board_size;
   background-color: $board_color;
   margin: auto;
+  margin-bottom: 40px;
   border: 10px solid $board_border;
   border-radius: 3px;
   -webkit-box-shadow: 4px 4px 6px #222;
@@ -45,23 +46,129 @@
     padding: 0;
     border: 2px solid black;
     vertical-align: top;
+    position: relative;
+    left: 0;
     >div {
-      font-size: 12px;
-      width: 100%;
+      font-size: 9px;
+      width: inherit;
       height: 100%;
       vertical-align: top;
+      text-align: center;
+    }
+    .price {
+      width: 65px;
+      position: absolute;
+      bottom: 4px;
+
+      text-align: center;
+      line-height: 9px;
     }
   }
   .corner {
+    padding: 0;
     width: $corner_size;
     height: $corner_size;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  #go {
+      background-image: url('../images/board_images/go.png');
+    }
+  #justvisiting {
+      background-image: url('../images/board_images/just_visiting_jail.png');
+    }
+  #freeparking {
+    background-image: url('../images/board_images/free_park.png');
+  }
+  #gotojail {
+      background-image: url('../images/board_images/goto_jail.png');
+  }
+  .chance {
+    background-image: url('../images/board_images/orange_chance.png');
+    background-size: 75px 75px;
+    background-position: -5px 20px;
+    background-repeat: no-repeat;
+    div {
+      margin-top: 3px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+  .communitychest {
+    background-image: url('../images/board_images/community_chest.png');
+    background-size: 60px 60px;
+    background-position: 3px 35px;
+    background-repeat: no-repeat;
+    div {
+      margin-top: 3px;
+      font-size: 11px;
+      font-weight: bold;
+    }
+  }
+  .railroad {
+    background-size: 55px 55px;
+    background-position: 5px 20px;
+    background-repeat: no-repeat;
+
+  }
+  #twofour {
+    background-image: url('../images/board_images/board_i-24.png');
+  }
+  #fourzero {
+    background-image: url('../images/board_images/I-40_sign.png');
+  }
+  #fourfourzero {
+    background-image: url('../images/board_images/I-440_sign.png');
+  }
+  #sixfive {
+    background-image: url('../images/board_images/I-65_sign.png');
+  }
+  #electric {
+    background-size: 60px 35px;
+    background-image: url('../images/board_images/utility_nes.png');
+    background-position: 2px 20px;
+    background-repeat: no-repeat;
+  }
+  #water {
+    background-size: 60px 20px;
+    background-image: url('../images/board_images/utility_water.png');
+    background-position: 2px 25px;
+    background-repeat: no-repeat;
   }
   .color_bar {
     width: 100%;
     height: 25px;
     border-bottom: 2px solid black;
   }
+  #luxurytax {
+    background-size: 65px 65px;
+    background-image: url('../images/board_images/barrel.png');
+    background-position: 0px 13px;
+    background-repeat: no-repeat;
+    font-weight: bold;
+  }
+  #incometax {
+    div {
+      position: relative;
+      left: 0;
+      p:first-child {
+        position: absolute;
+        width: 65px;;
+        top: -5px;
+        font-size: 14px;
+      }
 
+      p:nth-child(2) {
+        position: absolute;
+        top: 27px;
+        left: 26px;
+        font-size: 20px;
+      }
+      .price {
+        top: 80px;
+      }
+    }
+  }
   @for $i from 1 through 8 {
     $name: nth($color_bars, $i);
     $color: nth($color_bar_colors, $i);
@@ -71,32 +178,97 @@
   }
 
   #drawcommunitychest {
-    width: 150px;
-    height: 85px;
+    width: 110px;
+    height: 125px;
     border: 2px dotted black;
     text-align: center;
-    span {
-      position: relative;
-      top: 30px;
-    }
     @include rotate_fn(135deg);
     position: absolute;
-    top: 200px;
-    left: 175px;
+    top: 190px;
+    left: 200px;
   }
   #drawchance {
-    width: 150px;
-    height: 85px;
+    width: 110px;
+    height: 125px;
     border: 2px dotted black;
     text-align: center;
-    span {
-      position: relative;
-      top: 30px;
-    }
     @include rotate_fn(315deg);
     position: absolute;
-    bottom: 200px;
-    right: 175px;
+    bottom: 190px;
+    right: 200px;
   }
-
+  .drawpile {
+    span {
+      position: relative;
+      font-size: 12px;
+      font-weight: bold;
+      top: 50px;
+    }
+  }
+  #boardlogo {
+    background-image: url('../images/nashopoly_logo.png');
+    width: 350px;
+    height: 131px;
+    position: absolute;
+    left: 215px;
+    top: 330px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  #crease {
+    position: absolute;
+    left: 395px;
+    bottom: -10px;
+    width: 10px;
+    height: 820px;
+    background-color: rgba(40, 40, 40, .1);
+    #centercrease {
+      width: 6px;
+      height: 100%;
+      margin: auto;
+      background-color: rgba(40, 40, 40, .07);
+      div {
+        width: 2px;
+        height: 100%;
+        margin: auto;
+        background-color: rgba(40, 40, 40, .05);
+      }
+    }
+    .tape {
+      width: 40px;
+      height: 10px;
+      background-color: #222;
+      position: absolute;
+      right: -16px;
+      border-left: 1px solid #666;
+      border-right: 1px solid #666;
+      &:nth-of-type(2) {
+        top: 0px;
+      }
+      &:nth-of-type(3) {
+        bottom: 0px;
+      }
+      .tapecrease {
+        width: 10px;
+        height: 100%;
+        margin: auto;
+        background-color: rgba(150, 150, 150, .14);
+        >div {
+          width: 6px;
+          height: 100%;
+          margin: auto;
+          background-color: rgba(40, 40 ,40, .1);
+          >div {
+            width: 2px;
+            height: 100%;
+            margin: auto;
+            background-color: rgba(0, 0 ,0, .1);
+        }
+      }
+      }
+    }
+  }
 }
