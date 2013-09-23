@@ -108,6 +108,7 @@ section #content {
     text-align: center; }
 
 .content_body {
+  width: 960px;
   padding: 0 20px 0 20px; }
   .content_body p {
     padding: 20px; }
@@ -124,6 +125,16 @@ section #content {
     text-align: justify;
     border-right: 2px solid rgba(245, 209, 135, 0.5);
     border-left: 2px solid rgba(245, 209, 135, 0.5); }
+  .content_body .card_padding {
+    width: 940px;
+    float: left;
+    height: 203px;
+    padding: 20px 0 0 0; }
+    .content_body .card_padding ul {
+      display: inline;
+      padding-left: 0px; }
+    .content_body .card_padding li {
+      display: inline; }
 
 #board {
   width: 800px;

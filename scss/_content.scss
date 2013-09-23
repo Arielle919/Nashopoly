@@ -23,6 +23,7 @@ section #content
 
 .content_body
 {
+  width:960px;
   padding:0 20px 0 20px;
 
     p
@@ -58,7 +59,15 @@ section #content
       border-left: 2px solid rgba(245, 209, 135, .50);
     }
 
+    .card_padding
+    {
+      width:940px;
+      float:left;
+      // background-color:#f00;
+      height:203px;
+      padding:20px 0 0 0;
 
-
-
+      ul{display:inline; padding-left:0px;}
+      li{display:inline;}
   }
+}
