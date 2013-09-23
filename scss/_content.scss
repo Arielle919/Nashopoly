@@ -28,8 +28,17 @@ section #content
 
     p
     {
-      padding:20px;
+      padding:20px 40px 0 0;
+      text-align: justify;
+      #home_text
+    {
+
+      // width:850px;
+      // height:500px;
+      // background-color: red;
+
     }
+
 
 .peice_padding
     {
@@ -70,4 +79,7 @@ section #content
       ul{display:inline; padding-left:0px;}
       li{display:inline;}
   }
+
+
+    }
 }
