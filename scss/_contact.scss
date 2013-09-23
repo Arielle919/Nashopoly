@@ -1,0 +1,62 @@
+// for card header
+article .title
+{
+  font-size: 30px;
+  margin-top: 90px;
+  margin-left: 150px;
+}
+
+// for card text
+article .content
+{
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 40px;
+
+}
+
+#left_article
+    {
+      width: 450px;
+      height: 500px;
+      float:left;
+      margin: 20px 0 20px 20px;
+      background-image: url("../images/blue_small_card.jpg");
+      background-size: 100% 100%;
+      line-height: 30px;
+
+    }
+
+#right_article
+    {
+      width: 450px;
+      height: 500px;
+      float:left;
+      margin: 20px 0 20px 20px;
+      background-image: url("../images/red_small_card.jpg");
+      background-size: 100% 100%;
+      line-height: 30px;
+    }
+
+#bottom_left_article
+    {
+      width: 450px;
+      height: 500px;
+      float:left;
+      margin: 20px 0 20px 20px;
+      background-image: url("../images/yellow_small_card.jpg");
+      background-size: 100% 100%;
+      line-height: 30px;
+    }
+
+#bottom_right_article
+    {
+      width: 450px;
+      height: 500px;
+      float:left;
+      margin: 20px 0 20px 20px;
+      background-image: url("../images/green_small_card.jpg");
+      background-size: 100% 100%;
+      line-height: 30px;
+    }
